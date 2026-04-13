@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kyle — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <span class="nav-logo">Kyle</span>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Hi, I'm</p>
+      <h1>Kyle Vo</h1>
+      <p class="hero-sub">Software developer looking to make an impact!</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-gradient"></div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a developer who loves building real things from scratch.
+            I enjoy working on projects that solve actual problems.
+          </p>
+          <p>
+            When I'm not coding I'm making videos!
+            Always open to collaborating on interesting projects.
+          </p>
+        </div>
+        <div class="skills-list">
+          <h3>Technologies</h3>
+          <div class="tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML & CSS</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">Git</span>
+            <span class="tag">C++</span>
+            <span class="tag">Java</span>
+            <span class="tag">Typescript</span>
+            <span class="tag">Mongodb</span>
+            <span class="tag">React</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Swift</span>
+            <span class="tag">OLED</span>
+            <span class="tag">Python</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">Numpy</span>
+            <span class="tag">Machine learning</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Pytorch</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="cards-grid">
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Weather App</h3>
+            <div class="card-links">
+              <a href="https://weatherapp-1ip7.onrender.com/" target="_blank" rel="noopener" class="card-link">Live ↗</a>
+              <a href="https://github.com/BelieveMeYou/WeatherApp" target="_blank" rel="noopener" class="card-link">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="card-desc">
+            A weather app that fetches real-time forecast data using a public API.
+            Built with Node.js and Express on the backend.
+          </p>
+          <div class="card-tags">
+            <span class="tag tag-sm">JavaScript</span>
+            <span class="tag tag-sm">Node.js</span>
+            <span class="tag tag-sm">Express</span>
+            <span class="tag tag-sm">API</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Studystudio.ai Dashboard</h3>
+          </div>
+          <p class="card-desc">
+            Contributed to an AI-powered study planner startup as part of a senior design project, building the website dashboard and integrating the Google Calendar and Canvas APIs for automated schedule syncing. (Note: site is no longer live)
+          </p>
+          <div class="card-tags">
+            <span class="tag tag-sm">Fullstack</span>
+            <span class="tag tag-sm">API</span>
+            <span class="tag tag-sm">Node.js</span>
+            <span class="tag tag-sm">Typescript</span>
+            <span class="tag tag-sm">Mongodb</span>
+            <span class="tag tag-sm">React</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">DavisFriends App</h3>
+            <div class="card-links">
+              <a href="https://github.com/Swift-Coding-Club-UCD/DavisFriends" target="_blank" rel="noopener" class="card-link">GitHub ↗</a>
+            </div>
+          </div>
+          <p class="card-desc">
+            A social iOS app built with Swift designed to help UC Davis students form new connections and strengthen existing ones. 
+            Implemented a full backend with user authentication and a profile-based system, alongside frontend features for seamless in-app navigation.
+          </p>
+          <div class="card-tags">
+            <span class="tag tag-sm">Swift</span>
+            <span class="tag tag-sm">Firebase</span>
+            <span class="tag tag-sm">Figma</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Sketchpad</h3>
+            <div class="card-links">
+              <a href="https://believemeyou.github.io/website/" target="_blank" rel="noopener" class="card-link">Live ↗</a>
+            </div>
+          </div>
+          <p class="card-desc">
+            Designed and developed a sketch board application on the CC3200 microcontroller, combining low-level hardware programming with a companion website to showcase the project. Demonstrates experience bridging embedded systems development with web presentation.
+          </p>
+          <div class="card-tags">
+            <span class="tag tag-sm">C</span>
+            <span class="tag tag-sm">C++</span>
+            <span class="tag tag-sm">CC3200</span>
+            <span class="tag tag-sm">OLED</span>
+            <span class="tag tag-sm">AWS</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Salary Prediction Model</h3>
+            <div class="card-links">
+              <a href="ECS_171_MY_version.pdf" download="ECS_171_MY_version.pdf" class="card-link">Download ↗</a>
+              <a href="https://github.com/DharnishBoseRamesh/ECS-171-Project---Salary-Prediction" target="_blank" rel="noopener" class="card-link">GitHub ↗</a>            
+            </div>
+          </div>
+          <p class="card-desc">
+            Built and analyzed a machine learning model for salary prediction, handling data preprocessing, model training, and post-computation performance evaluation. Demonstrates applied ML skills in a practical, data-driven context.          </p>
+          <div class="card-tags">
+            <span class="tag tag-sm">Python</span>
+            <span class="tag tag-sm">Scikit-learn</span>
+            <span class="tag tag-sm">Numpy</span>
+            <span class="tag tag-sm">Machine learning</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Food Classification Model</h3>
+            <div class="card-links">
+              <a href="174 Final Report.pdf" download="174 Final Report.pdf" class="card-link">Download ↗</a>
+            </div>
+          </div>
+          <p class="card-desc">
+            Developed a deep learning food classification system on the Food-101 dataset, iteratively improving a ResNet-18 model through fine-tuning, attention mechanisms, and regularization techniques to achieve a final test accuracy of 81.2%.
+            <div class="card-tags">
+            <span class="tag tag-sm">Python</span>
+            <span class="tag tag-sm">Pytorch</span>
+            <span class="tag tag-sm">ResNet-18</span>
+            <span class="tag tag-sm">Computer Vision</span>
+            <span class="tag tag-sm">Machine learning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container contact-container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-sub">
+        Have a project in mind or just want to connect? Feel free to reach out.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:caokyvo@email.com" class="contact-item">
+          <span class="contact-icon">✉</span>
+          <span>caokyvo@email.com</span>
+        </a>
+        <a href="https://github.com/Believemeyou" target="_blank" rel="noopener" class="contact-item">
+          <span class="contact-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.604-3.369-1.341-3.369-1.341-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+            </svg>
+          </span>
+          <span>github.com/Believemeyou</span>
+        </a>
+        <a href="https://linkedin.com/in/kyle-vo-98909816b" target="_blank" rel="noopener" class="contact-item">
+          <span class="contact-icon">in</span>
+          <span>linkedin.com/in/kyle-vo-98909816b</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Built by Kyle Vo &middot; <a href="https://github.com/Believemeyou" target="_blank" rel="noopener">Source</a></p>
+  </footer>
+</body>
+</html>
